@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Utility classes*/
+
+.btn-primary{
+    background: #1db964;
+    color: #2941ab;
+    text-shadow: uppercase;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: #1ed760;
+    cursor: pointer;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+
+/**/
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+
+/*Navbar*/
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#navbar .navbar-container ul{
+    /*List-style tira as bolinhas*/
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul li:hover{
+    color: #1ed760;
+    transition: all 0.3s ease;
+}
+
+#navbar .navbar-container li:nth-child(3){
+    border-right:1px solid white;
+}
+
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/img/fundo.svg") center center/cover ;
+    background-color: #2941ab;
+    padding: 400px 0;
+}
+
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase .showcase-container h1{
+    display: flex;
+    font-size: 150px;
+    line-height: 134px;
+    width: 1004px;
+    justify-content: center;
+}
+
+#showcase .showcase-container p{
+    margin: 15px 0;
+    font-size: 18px;
+    color: #1ed760;
+}
+
+h1{
+    color: #1ed760;
+}
+
+#footer{
+    background: black;
+    color: white;
+    padding: 90px 0;
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu{
+    margin: 0 40px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item{
+    margin: 25px 0;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color: #1db964;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 12px;
+}
+/*Footer sociais*/
+.sociais{
+    display: flex;
+}
+
+.sociais i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+
+/*Footer info*/
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.footer-info .footer-info-item{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+}
+
+.footer-info .footer-info-item .footer-info-item{
+    margin: 0 10px;
+}
+
+.footer-info .copyright{
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+}
+
+.footer-info .copyright:hover{
+    color: #1ed760;
+}
+
+.footer-info .copyright .country{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-info .copyright .country .brazil-flag{
+    width: 20px;
+    height:auto;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-info-item:hover{
+    color: #1db964;
+    cursor: pointer;
+}
+
